@@ -1,0 +1,26 @@
+.card {
+    display: block;
+    margin: $spacing-medium;
+    padding: $spacing-small;
+    border: $border-thin solid $color-light-background;
+    border-radius: $border-radius-large;
+    box-shadow: $base-box-shadow;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .title {
+        font-size: $font-size-base;
+        font-weight: $font-weight-bold;
+    }
+
+    .body {
+        margin-top: $spacing-medium;
+        font-size: $font-size-small;
+
+        a {
+            color: $color-link;
+        }
+    }
+}
