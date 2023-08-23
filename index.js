@@ -1,3 +1,3 @@
-function onClick(number) {
-    console.log("Button " + number)
+function onClick(name) {
+    console.log("Button with name " + name + " was just clicked.")
 }
